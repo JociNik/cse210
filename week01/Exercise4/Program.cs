@@ -18,7 +18,7 @@ class Program
             Console.Write("Enter number: ");
             input = Console.ReadLine();
             intInput = int.Parse(input);
-            numbers.Add(intInput);
+            if (intInput != 0) { numbers.Add(intInput); }
         }
 
 
